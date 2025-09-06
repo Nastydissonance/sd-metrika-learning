@@ -1,58 +1,61 @@
 * {
   padding: 0;
   margin: 0;
+  letter-spacing: -0.03em;
 }
 
 body {
+  padding: 125px;
   display: flex;
   width: 100%;
+  box-sizing: border-box;
   flex-direction: row;
   justify-content: center;
   font-family: 'Manrope', sans-serif;
-  box-sizing: border-box;
-  padding: 125px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1150px;
-  background: #FFFFFF;
 }
 
 h1 {
+  margin-bottom: 30px;
+
   width: 956px;
   font-weight: 400;
   font-size: 60px;
   line-height: 100%;
-  letter-spacing: -0.03em;
   line-height: 60px;
-  text-align: left;
-  margin-bottom: 30px;
 }
 
-.p-white {
+.p-short {
+  margin-bottom: 40px;
+  margin-left: 40px;
+
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #FFFFFF;
   width: 430px;
-   
-  padding-bottom: 40px;
+  text-align: start;
 }
 
-.workshop-background {
+.photo-background {
+  margin-bottom: 150px;
+  margin-top: 30px;
+
   display: flex;
   align-items: end;
-  width: 1150px;
+  width: 100%;
   height: 500px;
   background-repeat: no-repeat;
   background-image: url('../resources/header-image.png');
   background-size: cover; 
-  
-  padding-left: 40px;
-  margin-bottom: 150px;
-  margin-top: 30px;
+}
+
+.project-image {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 
 #wrapper {
@@ -60,16 +63,15 @@ h1 {
 }
 
 .mini-headers {
+  margin-top: 150px;
+  margin-bottom: 30px;
+
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
-  text-align: left;
-
-  margin-top: 150px;
 }
 
-.btn {
+.btn-services {
   border-radius: 5px;
   padding: 20px 40px;
   background-color: #AD1818;
@@ -78,8 +80,7 @@ h1 {
   height: 67px;
   left: 125px;
   top: 1379px;
-
-  margin-top: 30px;
+  cursor: pointer;
 
   text-align: center;
   line-height: 67px;
@@ -87,13 +88,52 @@ h1 {
   color: #FFFFFF;
 }
 
-.p-black {
+.p-about-us {
   font-weight: 400;
   font-size: 45px;
-  letter-spacing: -0.03em;
   color: #000000d4;
   line-height: 61px;
-  text-align: left;
-  margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.projects-description {
+  margin-top: 15px;
+
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.more-info {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 90px;
+
+  font-weight: 400;
+  font-size: 20px;
+  color: #AD1818;
+  cursor: pointer;
+
+}
+
+.all-projects {
+display: block;
+margin: 90px 0px;
+
+border: 1px solid;
+border-radius: 5px;
+width: 100%;
+height: 153px;
+
+font-weight: 400;
+font-size: 30px;
+color: #AD1818;
+text-align: center; 
+line-height: 153px;
+text-decoration: none;
+cursor: pointer;
+}
+
+.all-projects:hover {
+background-color: #AD1818;
+color: #FFFFFF;
 }
