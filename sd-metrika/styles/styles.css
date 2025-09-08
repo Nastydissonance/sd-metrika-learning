@@ -60,10 +60,20 @@ h1 {
 }
 
 #wrapper {
-  max-width: 1150px;
+  height: 100%;
+  max-width: 1400px;
 }
 
-.mini-headers {
+#wrapper #info-block {
+  padding: 0 120px;
+}
+
+#wrapper #services-block {
+  background-color: black;
+  color: white;
+}
+
+section div.section-header h2 {
   margin-top: 150px;
   margin-bottom: 30px;
 
