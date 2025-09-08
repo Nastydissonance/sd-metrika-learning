@@ -7,9 +7,10 @@
 body {
   padding: 125px;
   display: flex;
+  flex-direction: column;
   width: 100%;
   box-sizing: border-box;
-  flex-direction: row;
+  align-items: center;
   justify-content: center;
   font-family: 'Manrope', sans-serif;
 }
