@@ -69,6 +69,8 @@ h1 {
 }
 
 #wrapper #services-block {
+  padding-top: 150px;
+  padding-bottom: 150px;
   margin-top: 150px;
   margin-bottom: 150px;
   background-color: black;
