@@ -69,7 +69,6 @@ h1 {
 }
 
 #wrapper #services-block {
-  margin: 0 auto;
   margin-top: 150px;
   margin-bottom: 150px;
   background-color: black;
@@ -112,7 +111,6 @@ section div.section-header h2 {
 
 .projects-description {
   margin-top: 15px;
-
   font-weight: 400;
   font-size: 30px;
 }
