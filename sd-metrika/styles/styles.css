@@ -69,6 +69,7 @@ h1 {
 }
 
 #wrapper #services-block {
+  margin: 0 auto;
   margin-top: 150px;
   margin-bottom: 150px;
   background-color: black;
@@ -154,7 +155,8 @@ color: #FFFFFF;
 .service-image {
   display: flex;
   margin: 0 auto;
-  width: 100%;
+  margin-top: 60px;
+  width: 1150px;
   height: 270px;
   background-repeat: no-repeat;
   background-size: cover; 
